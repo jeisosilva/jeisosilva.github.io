@@ -1,0 +1,15 @@
+---
+layout: default
+title: jeisosilva
+lang: en
+ref: home
+---
+
+<div class="blog-index">
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts limit:5%}
+  {% assign post = posts.first %}
+  {% assign content = post.content %}
+  {% include post_snippet.html %}
+  {% endfor %}
+</div>

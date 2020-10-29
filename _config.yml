@@ -1,0 +1,36 @@
+﻿name: jeisosilva
+markdown: kramdown
+highlighter: rouge
+
+t:
+  en:
+    # home:
+    #   name: "home"
+    #   url: "/index-eng.html"
+    blog:
+      name: "Blog"
+      url: "/blog/"
+    about:
+      name: "About"
+      url: "/about/"
+    cv:
+      name: "cv"
+      url: "/cv/index-pt.html"
+  pt:
+    # home:
+    #   name: "início"
+    #   url: "/"
+    blog:
+      name: "Blog"
+      url: "/blog/index-pt.html"
+    about:
+      name: "Sobre"
+      url: "/about/index-pt.html"
+    cv:
+      name: "cv"
+      url: "/cv/index-pt.html"
+
+
+plugins:
+  - jekyll-seo-tag
+  - rouge

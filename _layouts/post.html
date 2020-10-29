@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<!--
+<ul>
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+  <li>
+  	<span class="flag-icon flag-icon-gr flag-icon-squared"></span>
+    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+  </li>
+{% endfor %}
+-->
+
+<div class="row" style="margin-bottom: 20px;">
+{% if page.lang == "pt" %}
+    {% assign m = page.date | date: "%-m" | minus: 1 %}
+    <time class="meta post_date full">{{page.date | date:"%d "}} {{site.data.dates.pt.months[m]}} {{page.date | date:" %Y"}}</time>
+{% else %}
+    <time class="meta post_date full">{{ page.date | date_to_string }}</time>
+{% endif %}
+	<h2 class="post-title in-post-title">{{ page.title }}</h2>
+<p class="small description">{{ page.description }}</p>
+<footer></footer>
+</div>
+<div class="post">
+  {{ content }}
+</div>
+
+{% assign author = site.data.authors[page.author] %}
+{% if author %}
+{% include author.html %}
+{% endif %}

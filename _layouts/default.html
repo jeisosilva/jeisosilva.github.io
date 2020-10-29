@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		  {% include google-analytics.html %}
+		  {% seo %}
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+			<link rel='icon' href="https://img.icons8.com/fluent/96/combo-chart.png" type='image/x-icon' sizes="16x16" />
+
+			<!-- code highlighting https://highlightjs.org/ -->
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+			<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+
+			<script>hljs.initHighlightingOnLoad();</script>
+			<script type="text/javascript"
+				src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+			</script>
+		</head>
+		<body>
+		  <div class="container">
+		  <div class="row" style="margin-bottom: 20px;">
+			<div class="grid twelve">
+			<span class="logo"><a href="/"  style="text-decoration: none; color: inherit;">Jeiso Silva</a></span>
+
+			<!-- Multi languages for posts too -->
+			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+			{% for post in posts %}
+  			<span class="flag-icon flag-icon-gr flag-icon-squared">
+    		  <a class="menu_element" href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a></span>
+			{% endfor %}
+
+			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+			{% for page in pages %}
+			<a class="menu_element" href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+			{% endfor %}
+			<a class="menu_element" href="/"> / </a>
+	  		{% for menu in site.t[page.lang] reversed %}
+			<a class="menu_element" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+	  		{% endfor %}
+
+
+			<br><br>
+			<footer class="post_meta"></footer>
+			</div>
+			</div>
+
+			{{ content }}
+
+			<footer>
+	    		<ul>
+	        		<li><a class="footer_element" href="mailto:jeiso.pedreira@icloud" target="_blank"> <i class="fa fa-envelope fa-lg"></i></a></li>
+	        		<li><a class="footer_element" href="https://github.com/jeisosilva" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+	        		<li><a class="footer_element" href="https://twitter.com/jeisojps" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+	        		<li><a class="footer_element" href="https://www.linkedin.com/in/jeisosilva" target="_blank"><i class="fa fa-linkedin fa-lg"> </i></a></li>
+				</ul>
+			</footer>
+		  </div>
+		</body>
+	</html>
