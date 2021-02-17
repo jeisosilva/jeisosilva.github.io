@@ -54,15 +54,15 @@ h1 {
 }
 h1.blog-title {
     font-size: 58px;
-    color: #286748;
+    color: #36648B;
 }
 .post-title {
-    color: #286748;
+    color: #36648B;
 	font-size: 28px;;
 
 }
 .post-title.list {
-    color: #286748;
+    color: #36648B;
 	font-size: 18px;
 }
 
@@ -86,7 +86,7 @@ h4 {
     font-size: 26px;
 }
 h2.post-title {
-    color: #286748;
+    color: #36648B;
     margin-bottom: 5px;
 	font-size: 40px;
 }
@@ -113,7 +113,7 @@ h2.post-title {
 	font-size:1.2em;
 	font-family:Menlo, monospace, sans-serif;
 	text-decoration:none;
-	color:#286748;
+	color:#36648B;
 }
 
 a.menu_element:hover {
@@ -302,7 +302,7 @@ blockquote{
   font-style:italic;
   color: #555555;
   padding:1.0em 30px 1.0em 75px;
-  border-left:8px solid #286748;
+  border-left:8px solid #36648B;
   line-height:1.6;
   position: relative;
   background:#EDEDED;
@@ -311,7 +311,7 @@ blockquote{
 blockquote::before{
   font-family:Arial;
   content: "\201C";
-  color:#286748;
+  color:#36648B;
   font-size:4em;
   position: absolute;
   left: 10px;
@@ -344,7 +344,7 @@ blockquote span{
  display:inline-block;
  font-size:18px;
  font-weight:bold;
- background:#286748;
+ background:#4F94CD;
  color:white;
  font-family:menlo;
  padding:4px;
