@@ -399,3 +399,8 @@ a.nav-item:hover {
     background: #f0f0f0;
 }
 
+hr {
+	border: 0;
+	border-top: 1px solid #999;
+}
+
