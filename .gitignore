@@ -1,4 +1,6 @@
-_site/
 README.md
-
+Gemfile
+Gemfile.lock
+_drafts/
+_site/
 

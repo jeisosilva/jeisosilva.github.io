@@ -4,10 +4,16 @@ title: "Who is Jeiso Silva ?"
 date: 2021-02-11
 lang: en
 ref: About me
-author: Jeiso Silva
+author: jeiso
 description: A little intro about me.
+image: ../../../images/mr_bean2.gif
 ---
-<img   style="width:500px;margin:30px" src="../../../images/mr_bean.gif">
+
+<div align="center">
+    <figure>
+        <img  style="width:600px; margin:0px" src="../../../images/mr_bean2.gif"/>
+    </figure>
+</div>
 
 ### <span style="color:#36648B">Hello!</span>
 <p>How you doing ? I'm very happy to see you here, 
@@ -18,15 +24,24 @@ you probably accessed this post because you want to know a little more about thi
 
 <p>Since then I have been dedicating myself to learn more every day, and one of the results of this effort was the creation of this blog. Here, my main goal is to share the knowledge I've been acquiring over time and also post content about the libraries I use on a daily basis as well as some tips and gifs. :)</p>
 
+<div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
+
 ### <span style="color:#36648B">Where I Studed</span><br>
 
-<img  style="width:500px;margin:30px" src="../../../images/harry_potter.gif">
+<div align="center">
+    <figure>
+        <img  style="width:600px; margin:0px" src="../../../images/harry_potter.gif"/>
+    </figure>
+</div>
 
 <p>Initially I was a Computer Science major at Universidade Nove de Julho, but I went on to study Information Technology Management at Falculdade Impacta de Tecnologia after winning a full scholarship.</p>
 
 <p>Currently I am part of the Data Science team at NielsenIQ, where I try to improve my knowledge by seeking new techniques and solutions every day.</p>
-***
+
+<div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
+
 <p>Well that's it, this's me! I hope to see you again here. Follow me on Twitter and be my contact on LinkeIdn. See you!</p>
+
 
 
  
