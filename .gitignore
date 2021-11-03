@@ -1,5 +1,5 @@
 Gemfile
 Gemfile.lock
-_drafts/
 _site/
-
+RunServer.txt
+.jekyll-cache/
