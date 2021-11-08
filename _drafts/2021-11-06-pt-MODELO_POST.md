@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Desafio do Kaggle - Titanic"
+title: "MODELO POST"
 date: 2021-11-02
 lang: pt
 ref: Kaggle
 author: jeiso
-description: 
+description: Este é um modelo para novos posts
 image: ../../../images\data_science01.jpg
 ---
 

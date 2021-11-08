@@ -11,7 +11,7 @@ image: ../../../images/mr_bean2.gif
 
 <div align="center">
     <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/mr_bean2.gif"/>
+        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/mr_bean2.gif"/>
     </figure>
 </div>
 
@@ -30,7 +30,7 @@ you probably accessed this post because you want to know a little more about thi
 
 <div align="center">
     <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/harry_potter.gif"/>
+        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/harry_potter.gif"/>
     </figure>
 </div>
 

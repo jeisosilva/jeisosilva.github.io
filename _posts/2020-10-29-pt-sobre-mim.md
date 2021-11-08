@@ -11,7 +11,7 @@ image: ../../../images/mr_bean2.gif
 
 <div align="center">
     <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/mr_bean2.gif"/>
+        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/mr_bean2.gif"/>
     </figure>
 </div>
 
@@ -31,7 +31,7 @@ provavelmente você deve ter acessador este post por que queira saber um pouco m
 
 <div align="center">
     <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/harry_potter.gif"/>
+        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/harry_potter.gif"/>
     </figure>
 </div>
 
