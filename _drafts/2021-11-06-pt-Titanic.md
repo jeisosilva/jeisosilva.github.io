@@ -5,8 +5,8 @@ date: 2021-11-02
 lang: pt
 ref: Kaggle
 author: jeiso
-image: images\desafio-kaggle-titanic\img\titanic.jpg
 description: teste
+image: images\desafio-kaggle-titanic\img\titanic.jpg
 ---
 
 <div align="center" style='color:gray' >
