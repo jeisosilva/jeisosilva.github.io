@@ -61,4 +61,9 @@ A plataforma também disponibiliza dados de assuntos diversos (os famosos datase
 </p>
 
 
- 
+## References
+
+[^fn1]: Arjovsky, M., Bottou, L., Gulrajani, I., & Lopez-Paz, D., Invariant Risk Minimization (2019).
+[^fn2]: Lu, C., Wu, Y., Hern\'andez-Lobato, Jo\'se Miguel, & Sch\"olkopf, Bernhard, Nonlinear invariant risk minimization: a causal approach, arXiv preprint arXiv:2102.12353, (2021). 
+
+Camel picture from the social share by Wolfgang Hasselmann. 
