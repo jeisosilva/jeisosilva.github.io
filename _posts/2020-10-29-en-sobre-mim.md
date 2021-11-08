@@ -6,7 +6,7 @@ lang: en
 ref: About me
 author: jeiso
 description: A little intro about me.
-image: ../../../images/mr_bean2.gif
+image: ....\..\images/sou-eu\mr_bean2.gif
 ---
 
 <div align="center">

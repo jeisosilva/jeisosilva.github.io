@@ -6,7 +6,7 @@ lang: pt
 ref: sobre mim
 author: jeiso
 description: Um resumo sobre o criador deste Blog.
-image: ../../../images/mr_bean2.gif
+image: ../../../images/sou-eu/mr_bean2.gif
 ---
 
 <div align="center">

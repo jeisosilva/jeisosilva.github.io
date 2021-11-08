@@ -5,51 +5,60 @@ date: 2021-11-02
 lang: pt
 ref: Kaggle
 author: jeiso
-description: 
-image: ../../../images\data_science01.jpg
+image: images\desafio-kaggle-titanic\img\titanic.jpg
+description: teste
 ---
 
 <div align="center" style='color:gray' >
     <figure >
         <img  style="width:600px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\titanic.jpg"/>      
     </figure>
-    <i>Photo by <u><a href='#' target="_blank" style="color: inherit">Brett Jordan</a></u> on <u><a href='https://unsplash.com' target="_blank" style="color: inherit">Unsplash</a></u></i>
+    <!--
+    <i>Photo by <u><a href='#' target="_blank" https://www.kaggle.com">Brett Jordan</a></u> on <u><a href='https://unsplash.com' target="_blank" style="color: inherit">Unsplash</a></u></i>
+    -->
 </div>
 
+> Quando algo é importante o suficiente, você realiza, mesmo que as chances não estejam a seu favor. – Elon Musk
 
-### <span style="color:#36648B"> Índice</span>
+## <span style="color:#36648B">Prefácio</span><br> <a name="prefacio"></a>
+<p>
+Creio que assim com eu, todos que estão de alguma forma iniciando seu estudado em data science ou mesmo estudando sozinhos, sabem o quão dificil é não ter aquele "parceiro(a)" nas horas de dúvidas, não é mesmo? Como também estou iniciando minha jornada neste novo mundo chamado <a href='https://www.kaggle.com' target="_blank" style="color: inherit">Kaggle</a>, decide então começar a documentar cada desafio em que participo, para que este post também possa ajudar a outras pessoas.
+<br>
+Nosso 1° desafio será ninguém mais e ninguém menos que o tão famoso <b>Desafio do Titanic</b>, o desafio recomendado para nós, os iniciantes :)
+<br>
+Então sem mais de longas, vamos começar!
+</p>
 
+## <span style="color:#36648B"> Índice</span>
 
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
-
-<div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
-
-# <span style="color:#36648B">Introduction</span><br> <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
-
-# <span style="color:#36648B">paragraph1</span><br><a name="paragraph1"></a>
-The first paragraph text
-
-### <span style="color:#36648B">subparagraph1</span><br> <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
-# <span style="color:#36648B">paragraph2</span><br> <a name="paragraph2"></a>
-The second paragraph text
+* [Quickly Start](#introducao)
+    * [O Que é o Kaggle?](#o-que-e-kaggle)
+    * [Como Funciona o Kaggle?](#como-funciona-o-kaggle)
+    * [Como Funciona os Desafios?](#como-funciona-os-desafios)
+* [Some paragraph](#paragraph1)
+* [Another paragraph](#paragraph2)
 
 <div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
 
 
-<p>Initially I was a Computer Science major at Universidade Nove de Julho, but I went on to study Information Technology Management at Falculdade Impacta de Tecnologia after winning a full scholarship.</p>
+# <span style="color:#36648B">Quickly Start</span><br> <a name="introducao"></a>
 
-<p>Currently I am part of the Data Science team at NielsenIQ, where I try to improve my knowledge by seeking new techniques and solutions every day.</p>
+### <span style="color:#36648B">O Que é o Kaggle?</span><br> <a name="o-que-e-kaggle"></a>
+<p>
+O kaggle é uma das plataformas mais conhecidas para competições de Data Scence, O kaggle foi fundado no ano de 2010 por <a href='https://en.wikipedia.org/wiki/Anthony_Goldbloom' target="_blank" style="color: inherit">Anthony Goldbloom</a>, e foi adquirida pelo Google em 2017.
+</p>
 
-<div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
+### <span style="color:#36648B">Como Funciona o Kaggle?</span><br> <a name="como-funciona-o-kaggle"></a>
+<p>
+De uma forma bem resumida, o Kaggle hospeda competições públicas, privadas e acadêmicas em sua plataforma, existem compatições patrocinadas que oderencem um prêmio em dinheiro pela melhor solução e também existe as competições de aprendizagem que são muitas vezes disponibilizadas pelo próprio Kaggle.
+<br>
+A plataforma também disponibiliza dados de assuntos diversos (os famosos datasets) além de possuir fóruns e uma comunidade disposta a trocar conhecimentos.
+</p>
 
-<p>Well that's it, this's me! I hope to see you again here. Follow me on Twitter and be my contact on LinkeIdn. See you!</p>
+### <span style="color:#36648B">Como Funciona o Kaggle?</span><br> <a name="como-funciona-os-desafios"></a>
+<p>
 
+</p>
 
 
  
