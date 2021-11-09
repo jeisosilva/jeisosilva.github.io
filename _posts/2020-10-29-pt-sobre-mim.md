@@ -10,9 +10,7 @@ image: ../../../images/sou-eu/mr_bean2.gif
 ---
 
 <div align="center">
-    <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/mr_bean2.gif"/>
-    </figure>
+    <img  style="width:700px; margin:0px" src="../../../images/sou-eu/mr_bean2.gif"/>
 </div>
 
 
@@ -30,9 +28,7 @@ provavelmente você deve ter acessador este post por que queira saber um pouco m
 ### <span style="color:#36648B">Onde eu estudei</span><br>
 
 <div align="center">
-    <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/harry_potter.gif"/>
-    </figure>
+    <img  style="width:700px; margin:0px" src="../../../images/sou-eu/harry_potter.gif"/>
 </div>
 
 

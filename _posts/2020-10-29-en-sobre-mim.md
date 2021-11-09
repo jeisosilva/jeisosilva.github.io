@@ -10,9 +10,7 @@ image: ....\..\images/sou-eu\mr_bean2.gif
 ---
 
 <div align="center">
-    <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/mr_bean2.gif"/>
-    </figure>
+    <img  style="width:700px; margin:0px" src="../../../images/sou-eu/mr_bean2.gif"/>
 </div>
 
 ### <span style="color:#36648B">Hello!</span>
@@ -29,9 +27,7 @@ you probably accessed this post because you want to know a little more about thi
 ### <span style="color:#36648B">Where I Studed</span><br>
 
 <div align="center">
-    <figure>
-        <img  style="width:600px; margin:0px" src="../../../images/sou-eu/harry_potter.gif"/>
-    </figure>
+    <img  style="width:700px; margin:0px" src="../../../images/sou-eu/harry_potter.gif"/>
 </div>
 
 <p>Initially I was a Computer Science major at Universidade Nove de Julho, but I went on to study Information Technology Management at Falculdade Impacta de Tecnologia after winning a full scholarship.</p>
