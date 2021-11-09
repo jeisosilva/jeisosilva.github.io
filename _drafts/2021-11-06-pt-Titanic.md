@@ -5,14 +5,12 @@ date: 2021-11-02
 lang: pt
 ref: Kaggle
 author: jeiso
-description: Quem vive ou morre, será que conseguimos prever?
+description: Quem vive ou morre, será que conseguimos preversss?
 image: images\desafio-kaggle-titanic\img\titanic.jpg
 ---
 
 <div align="center" style='color:gray' >
-    <figure >
-        <img  style="width:600px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\titanic.jpg"/>      
-    </figure>
+    <img  style="width:700px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\titanic.jpg"/>      
     <!--
     <i>Photo by <u><a href='#' target="_blank" https://www.kaggle.com">Brett Jordan</a></u> on <u><a href='https://unsplash.com' target="_blank" style="color: inherit">Unsplash</a></u></i>
     -->
@@ -35,8 +33,8 @@ Então sem mais de longas, vamos começar!
     * [O Que é o Kaggle?](#o-que-e-kaggle)
     * [Como Funciona o Kaggle?](#como-funciona-o-kaggle)
     * [Como Funciona os Desafios?](#como-funciona-os-desafios)
-* [Some paragraph](#paragraph1)
-* [Another paragraph](#paragraph2)
+* [Downloads dos Dados](#download-dados)
+* [Lendo os Dados](#lendo-os-dados)
 
 <div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
 
@@ -57,12 +55,40 @@ A plataforma também disponibiliza dados de assuntos diversos (os famosos datase
 
 ### <span style="color:#36648B">Como Funciona os Desafios?</span><br> <a name="como-funciona-os-desafios"></a>
 <p>
-Partindo do pressuposto que você sabe já se cadastrou na plataforma e também aceitou participar da competição. Caso ainda não tenho se cadastrado, <a href='https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F' target="_blank"><b>click aqui</b></a> para ir para atela de cadastro, e depois <a href='https://www.kaggle.com/c/titanic' target="_blank" ><b>click aqui</b></a> para ir a competição do <b>titanic</b>.
-<br>
-Agora que temos tudo que precisamos, vou lista alguns pontos importantes sobre as competições:
+Para o caso do Titanic é bem simples, basicamente temos os datasets de Treino, Teste e a Gender_submission. O que precisamos fazer é criar um modelo que preveja se um determinado tripulante do RMS Titanic sobreviveu a colisão com o iceberg no dia 14 abril de 1912.
+Com o modelo ja criado devemos prever nossa base de <b>Teste</b>, e assim criar a nossa submission na qual faremos o upload para o kaggle que avaliará a previsão.
 </p>
 
+# <span style="color:#36648B">Downloads dos Dados</span><br> <a name="download-dados"></a>
+<p>
+A primeira coisa que precisamos fazer é o download dos datasets, para isso você tem duas opções, Fazer o download na própria plataforma do kaggle ou utilizar da API do Kaggle. No meu caso estou usando a API, mas isso fica a seu critério. (caso queria conhecer sobre a API acesse o link abaixo)
+<br>
+<br>
+<a href='https://www.kaggle.com/docs/api' target='_blank'>Documentação Kaggle API</a>
+<br>
+<br>
+As bibliotecas que vou utiliza, são: Pandas e Nunmpy, pretendo fazer um artigo introdutório sobre eles em breve, mas por enquanto vou deixar o link das documentações aqui embaixo.
+<br>
+<br>
+<a href='https://pandas.pydata.org/docs/' target='_blank'>Documentação Pandas</a>
+<br>
+<a href='https://numpy.org/doc/' target='_blank'>Documentação Numpy</a>
+<br>
+<br>
+</p>
 
-* lista1
-* lista2
+# <span style="color:#36648B">Lendo os Dados</span><br> <a name="lendo-os-dados"></a>
+<p>Importando as bibliotecas</p>
+
+```python
+# Loading packges
+import pandas as pd
+import numpy as np
+```
+<p>Importando as bibliotecas</p>
+
+
+
+
+
 
