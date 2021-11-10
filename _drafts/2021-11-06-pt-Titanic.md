@@ -33,8 +33,18 @@ Então sem mais de longas, vamos começar!
     * [O Que é o Kaggle?](#o-que-e-kaggle)
     * [Como Funciona o Kaggle?](#como-funciona-o-kaggle)
     * [Como Funciona os Desafios?](#como-funciona-os-desafios)
+* [Workflow](#workflow)
+    * [Definição do Problema](#definicao-do-problema)
+    * [Obtenção dos Dados](#definicao-do-problema)
+    * [Exploração dos Dados](#definicao-do-problema)
+    * [Preparação dos Dados](#definicao-do-problema)
+    * [Modelagem](#definicao-do-problema)
+    * [Avaliação](#definicao-do-problema)
 * [Downloads dos Dados](#download-dados)
 * [Lendo os Dados](#lendo-os-dados)
+* [Entendendo os Dados](#entendendo-os-dados)
+
+
 
 <div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
 
@@ -58,6 +68,62 @@ A plataforma também disponibiliza dados de assuntos diversos (os famosos datase
 Para o caso do Titanic é bem simples, basicamente temos os datasets de Treino, Teste e a Gender_submission. O que precisamos fazer é criar um modelo que preveja se um determinado tripulante do RMS Titanic sobreviveu a colisão com o iceberg no dia 14 abril de 1912.
 Com o modelo ja criado devemos prever nossa base de <b>Teste</b>, e assim criar a nossa submission na qual faremos o upload para o kaggle que avaliará a previsão.
 </p>
+
+# <span style="color:#36648B">Workflow</span><br> <a name="workflow"></a>
+<p>
+Todo projeto de Data Science precisa seguir um fluxo de trabalho com algumas etapas essenciais para se fazer uma boa análise.
+
+Ao iniciar um novo projeto de data Science, se a primeira coisa que vocês faz é criar um notebook, carregar os arquivos em memória e já sair escrevendo código, em algum momento durante sua análise você vai se perder.
+
+Para este Projeto do Titanic, as etapas que vamos seguir são as seguintes:
+</p>
+#### 1. Definição do Problema
+#### 2. Obtenção dos Dados
+#### 3. Exploração dos Dados
+#### 4. Preparação dos Dados
+#### 5. Modelagem
+#### 6. Avaliação
+<p>
+Seguindo estas etapas, dividimos o problema em etapas e deixamos a análise mais estruturada.
+</p>
+
+### <span style="color:#36648B">Definição do Problema</span><br> <a name="definicao-do-problema"></a>
+<p>
+Particularmente eu sempre gosto de <b>gasta um bom tempo no começo para entender</b> sobre o problema (ou negócio) que estamos trabalhando. No nosso caso, entender o problema
+também incluí fazer pesquisas sobre a historia do Titanic.
+</p>
+
+<div align="center" style='color:gray' >
+    <img  style="width:700px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\titanic_caracteristicas.gif"/>      
+</div>
+<p>
+O RMS Titanic começo a ser construido em março de 1912, foi a segunda embarcação da <b>Classe Olimpic</b> e levou cerca de de 2 anos até sua conclusão. Com 269 metros de comprimento
+28 metros de largura e 53 metros de altura, o titanic operava com uma tripulação de 892 pessoas e era capaz de transportar 2.435 passageiros espalhados em três classes. Além disso, a embarcaçào também carregava correio e por isso recebeu o prefixo <b>Royal Mail Ship</b> (RMS). (Isso fica como uma curiosidade, mas confesso que eu também não sabia dessa.)
+<br>
+<br>
+Este incrível navio, foi pensado para ser <b>a mais segura e luxuosa embarcação da época</b>, ganhando a reputação de ser <b>"inafundável"</b>.
+<br>
+<br>
+O naufrágio do RMS Titanic aconteceu no dia 14 de abril de 1912 quando colidiu as 23h40 contra um iceberg nas águas do Oceano Atlântico. Naquela noite, 1.514 pessoas morreram, embora aqueles que escaparam com vida tiveram uma boa dose de sorte, havia determinados grupos de pessoas que eram mais propensos a escaparem com vida que outros. Exemplo, mulheres, crianças e passageiros das
+
+
+segundo a Junta Comercial Britânica. Após a tragédia, 
+
+</p>
+
+#### Objetivo
+<p>
+O objetivo deste desafio de Data Science é utilizar os dados disponíveis para medir a probabilidade de sobrevivência dos passageiros do RMS Titanic.
+<br>
+</p>
+
+
+
+
+
+
+
+
 
 # <span style="color:#36648B">Downloads dos Dados</span><br> <a name="download-dados"></a>
 <p>
@@ -85,10 +151,28 @@ As bibliotecas que vou utiliza, são: Pandas e Nunmpy, pretendo fazer um artigo 
 import pandas as pd
 import numpy as np
 ```
-<p>Importando as bibliotecas</p>
+<p>Lendo os arquivo de treino e teste</p>
 
+```python
+# Loading files
+train = pd.read_csv('./inputs/train.csv')
+test = pd.read_csv('./inputs/test.csv')
+```
 
+```python
+train.head()
+```
+<div align="center" style='color:gray' >
+    <img  style="width:700px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\treino-5registros.png"/>      
+</div>
+```python
+test.head()
+```
+<div align="center" style='color:gray' >
+    <img  style="width:700px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\teste-5registros.png"/>      
+</div>
 
-
-
-
+# <span style="color:#36648B">Entendendo os Dados</span><br> <a name="entendendo-os-dados"></a>
+<p>
+A primeira coisa que precisamos entender é o que cada coluna representa, então para deixa mais claro, segue essa tabela para 
+</p>
