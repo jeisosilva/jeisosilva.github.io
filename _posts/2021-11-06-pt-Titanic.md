@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desafio do Kaggle - Titanic"
-date: 2021-11-02
+date: 2021-11-12
 lang: pt
 ref: Kaggle
 author: jeiso
