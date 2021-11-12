@@ -56,7 +56,7 @@ O kaggle é uma das plataformas mais conhecidas para competições de Data Scenc
 
 ### <span style="color:#36648B">Como Funciona o Kaggle?</span><br> <a name="como-funciona-o-kaggle"></a>
 <p>
-De uma forma bem resumida, o Kaggle hospeda competições públicas, privadas e acadêmicas em sua plataforma, existem competições patrocinadas que oferencem um prêmio em dinheiro pela melhor solução, também existe as competições de aprendizagem que são muitas vezes disponibilizadas pelo próprio Kaggle.
+De uma forma bem resumida, o Kaggle hospeda competições públicas, privadas e acadêmicas em sua plataforma, existem competições patrocinadas que oferecem um prêmio em dinheiro pela melhor solução, também existe as competições de aprendizagem que são muitas vezes disponibilizadas pelo próprio Kaggle.
 <br>
 A plataforma também disponibiliza dados de assuntos diversos (os famosos datasets) além de possuir fóruns e uma comunidade disposta a trocar conhecimentos.
 </p>
@@ -94,14 +94,14 @@ Seguindo estas etapas deixamos a análise mais estruturada.
 ### <span style="color:#36648B">Definição do Problema</span><a name="definicao-do-problema"></a>
 <p>
 Particularmente eu sempre gosto de <b>dedicar um bom tempo no começo para entender</b> sobre o problema (ou negócio) que estamos trabalhando. No nosso caso, entender o problema
-também incluí fazer pesquisas sobre a historia do Titanic.
+também inclui fazer pesquisas sobre a historia do Titanic.
 </p>
 
 <div align="center" style='color:gray' >
     <img  style="width:700px; margin:0px" src="../../../images\desafio-kaggle-titanic\img\titanic_caracteristicas.gif"/>      
 </div>
 <p>
-O RMS Titanic começo a ser construido em março de 1912, foi a segunda embarcação da <b>Classe Olimpic</b> e levou cerca de de 2 anos até sua conclusão. Com 269 metros de comprimento
+O RMS Titanic começou a ser construído em março de 1912, foi a segunda embarcação da <b>Classe Olimpic</b> e levou cerca de de 2 anos até sua conclusão. Com 269 metros de comprimento
 28 metros de largura e 53 metros de altura, o titanic operava com uma tripulação de 892 pessoas e era capaz de transportar 2.435 passageiros espalhados em três classes. Além disso, a embarcação também carregava correio e por isso recebeu o prefixo <b>Royal Mail Ship</b> (RMS). (Isso fica como uma curiosidade, mas confesso que eu também não sabia dessa.)
 <br>
 <br>
@@ -116,7 +116,7 @@ A descrição completa desta competição, assim como os dados que vamos usar po
 #### Objetivo
 
 * Utilizar os dados disponíveis para medir a probabilidade de sobrevivência dos passageiros do RMS Titanic. 
-* Análisar quais variáveis tiveram maior influência na probablidade de sobrevivência.
+* Analisar quais variáveis tiveram maior influência na probablidade de sobrevivência.
 
 <div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
 
@@ -132,7 +132,7 @@ ou
 <br>
 * Utilizar da API do Kaggle. 
 <br>
-No meu caso estarei usando a API, mas isso fica a seu critério. 
+No meu caso, vou usar o Kaggle API, mas isso fica a seu critério. 
 <br>
 <br>
 (Caso queira conhecer sobre a API acesse <a href='https://www.kaggle.com/docs/api' target='_blank'>Documentação Kaggle API</a>)
@@ -350,7 +350,7 @@ train['embarked_binario'] = train.Embarked.map({'S':1,'Q':2,'C':3})
 ### <b>Seleção das Features</b>
 <p>
 Agora é hora de escolhermos as variáveis que vamos usar para treinar o modelo, como eu havia dito anteriormente, a etapa de <u>Análise Exploratória</u> é muito 
-importante, pois foi através dela que comprovamos hipóteses e também nos ajudou a discartar variáveis duplicadas/redundantes que não seria intesessante para o modelo.
+importante, pois foi através dela que comprovamos hipóteses e também nos ajudou a eliminar variáveis duplicadas/redundantes que não seria intesessante para o modelo.
 </p>
 
 ```python
@@ -379,7 +379,7 @@ X = base.drop('Survived', axis=1)
 y = base['Survived']
 ```
 <p>
-O modelo escolhido para este desafio foi o <u>Random Florest</u>, pois é um modelo que costuma ter uma boa performace nestes tipos de classificação. Random Florest é um modelo baseado em arvores de decisão que particularmente eu gosto bastante.
+O modelo escolhido para este desafio foi o <u>RandomFlorest</u>, pois é um modelo que costuma ter uma boa performace nestes tipos de classificação. RandomFlorest é um modelo baseado em arvores de decisão que particularmente eu gosto bastante.
 <br>
 Normalmente quando você esta nesta etapa de modelagem, é bem comum testarmos mais de um tipo de modelo, e assim avaliarmos qual deles teve uma melhor performace, ou mesmo cogitar
 um ensemble de modelos, mas este é um assunto para outro artigo.
@@ -407,7 +407,7 @@ mdl_rf.fit(Xtrain,ytrain)
 <p>
 Para o modelo usamos os seguintes parâmetros:
 </p>
-* n_estimators = 1000, que é o número de arvores dentro da florest.
+* n_estimators = 1000, que é o número de arvores dentro da floresta.
 * n_jobs = 6, que é o número de jobs que rodará em paralelo.
 * random_state = 0, para sempre gerar uma sequência única de dados pseudoaleatorios.
 * class_weight = 'balanced', como temos classes desbalanceadas, isso é, mais exemplos de uma determinada label que de outra, este parâmentro basicamente
@@ -478,7 +478,7 @@ base_test.head()
 </div>
 
 ```python
-# Fasendo a predição na base test
+# Fazendo a predição na base test
 p = mdl_rf.predict(base_test)
 ```
 <p>
