@@ -427,8 +427,10 @@ As métricas que vamos observar são:
 </p>
 
 
-* Acurácia (Accuracy/Taxa de Acerto) - É basicamente o número de acertos (positivos) divido pelo número total de exemplos.
-* Precisão (Precision) - Número de exemplos classificados como pertencentes a uma classe, que realmente são daquela classe (positivos verdadeiros), dividido pela soma entre este número, e o número de exemplos classificados nesta classe, mas que pertencem a outras (falsos positivos).
+* Acurácia (Accuracy/Taxa de Acerto) - É basicamente o número de acertos divido pelo número total de exemplos.
+* Precisão (Precision) - É a porcentagem de todos os dados classificados como positivos, quantos são realmente positivos.
+
+
 
 ```python
 # importando métricas
