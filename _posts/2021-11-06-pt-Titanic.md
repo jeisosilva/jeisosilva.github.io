@@ -27,6 +27,8 @@ Nosso 1° desafio será ninguém mais e ninguém menos que o tão famoso <b>Desa
 Então sem mais de longas, vamos começar!
 </p>
 
+<div align="center"> <strong>.&nbsp;&nbsp;.&nbsp;&nbsp;.</strong></div>
+
 ## <span style="color:#36648B"> Índice</span>
 
 * [QuickStart](#introducao)
