@@ -254,10 +254,10 @@ figcaption {
 .avatar-module img {
     padding:2px;
     border:1px solid #021a40;
-    border-radius: 15%;
+    border-radius: 5%;
    /* border-radius: 50%!important;*/
-    height: 130px;
-    width: 110px;
+    height: 150px;
+    width: 120px;
     float: left;
     margin:0px 20px 0px 20px;
 }

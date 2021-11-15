@@ -20,44 +20,45 @@
 			</script>
 		</head>
 		<body>
-		  <div class="container">
-		  <div class="row" style="margin-bottom: 20px;">
-			<div class="grid twelve">
-			<span class="logo"><a href="/"  style="text-decoration: none; color: inherit;">Jeiso</a></span>
+			<div class="container">
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="grid twelve">
+						<span class="logo"><a href="/"  style="text-decoration: none; color: inherit;">Jeiso</a></span>
 
-			<!-- Multi languages for posts too -->
-			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-			{% for post in posts %}
-  			<span class="flag-icon flag-icon-gr flag-icon-squared">
-    		  <a class="menu_element" href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a></span>
-			{% endfor %}
+						<!-- Multi languages for posts too -->
+						{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+						{% for post in posts %}
+						<span class="flag-icon flag-icon-gr flag-icon-squared">
+						<a class="menu_element" href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a></span>
+						{% endfor %}
 
-			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-			{% for page in pages %}
-			<a class="menu_element" href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-			{% endfor %}
-			<a class="menu_element" href="/"> / </a>
-	  		{% for menu in site.t[page.lang] reversed %}
-			<a class="menu_element" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
-	  		{% endfor %}
+						{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+						{% for page in pages %}
+						<a class="menu_element" href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+						{% endfor %}
+						<a class="menu_element" href="/"> / </a>
+						{% for menu in site.t[page.lang] reversed %}
+						<a class="menu_element" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+						{% endfor %}
 
 
-			<br><br>
-			<footer class="post_meta"></footer>
+						<br><br>
+						<!--<footer class="post_meta"></footer>-->
+					</div>
+				</div>
+
+				{{ content }}
+
+				<footer>
+					<ul>
+						<li><a class="footer_element" href="mailto:jeiso.pedreira@icloud.com" target="_blank"> <i class="fa fa-envelope fa-lg"></i></a></li>
+						<li><a class="footer_element" href="https://github.com/jeisosilva" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+						<li><a class="footer_element" href="https://www.linkedin.com/in/jeisosilva" target="_blank"><i class="fa fa-linkedin fa-lg"> </i></a></li>	
+						<li><a class="footer_element" href="https://www.instagram.com/ps.json/" target="_blank"><i class="fa fa-instagram fa-lg"> </i></a></li>
+						<li><a class="footer_element" href="https://twitter.com/jeisojps" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+						<!--<li><a class="footer_element" href="/feed.xml" target="_blank"><i class="fa fa-rss fa-lg"> </i></a></li>-->
+					</ul>
+				</footer>
 			</div>
-			</div>
-
-			{{ content }}
-
-			<footer>
-	    		<ul>
-	        		<li><a class="footer_element" href="mailto:jeiso.pedreira@icloud" target="_blank"> <i class="fa fa-envelope fa-lg"></i></a></li>
-	        		<li><a class="footer_element" href="https://github.com/jeisosilva" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
-	        		<li><a class="footer_element" href="https://twitter.com/jeisojps" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
-	        		<li><a class="footer_element" href="https://www.linkedin.com/in/jeisosilva" target="_blank"><i class="fa fa-linkedin fa-lg"> </i></a></li>
-					<!--<li><a class="footer_element" href="/feed.xml" target="_blank"><i class="fa fa-rss fa-lg"> </i></a></li>-->
-				</ul>
-			</footer>
-		  </div>
 		</body>
 	</html>
