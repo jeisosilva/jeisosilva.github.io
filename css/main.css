@@ -413,6 +413,24 @@ blockquote span{
  
 }
 
+.voltar {
+    display:inline-block;
+    font-size:15px;
+    font-weight:bold;
+    background:#808080;
+    color:white;
+    font-family:menlo;
+    padding:4px;
+    padding-left:8px;
+    letter-spacing:3px
+   
+   }
+   .voltar:hover {
+    text-decoration:unset !important;
+    cursor:pointer
+   }
+   
+
 /* a.nav-item { */
 /*  margin:0 0 0 20px; */
 /*  float:right; */
