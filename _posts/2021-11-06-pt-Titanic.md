@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desafio do Kaggle - Titanic"
+title: "#01 Titanic - Competição Kaggle"
 date: 2021-11-12
 lang: pt
 ref: Kaggle
