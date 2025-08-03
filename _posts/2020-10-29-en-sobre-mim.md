@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Who is Jeiso Silva ?"
+title: "Who is Jason Silva ?"
 date: 2021-02-11
 lang: en
 ref: About me
-author: jeiso
+author: Jason
 description: A little intro about me.
 image: ....\..\images/sou-eu\mr_bean2.gif
 ---
@@ -16,7 +16,7 @@ image: ....\..\images/sou-eu\mr_bean2.gif
 ### <span style="color:#36648B">Hello!</span>
 <p>How you doing ? I'm very happy to see you here, 
 you probably accessed this post because you want to know a little more about this person. So here we go.</p>
-<p>My names is Jeiso Pedreira da Silva, I was born in são paulo (Brazil) and lived here my whole life. I started my jorney in information tecnology in 2016 with a degree in Computer Science, after deciding to quit the job I had been working at for 4 years and to venture into uncharted seas.</p>
+<p>My names is Jason Pedreira da Silva, I was born in são paulo (Brazil) and lived here my whole life. I started my jorney in information tecnology in 2016 with a degree in Computer Science, after deciding to quit the job I had been working at for 4 years and to venture into uncharted seas.</p>
 
 <p>In mid-2017 when I was already in my internship program, in a conversation about new market trends with my manager, he introduced me to a course called Data Analysis with Python, in which there was an introduction to Data Science with Python: it was passion at first sight.</p> 
 

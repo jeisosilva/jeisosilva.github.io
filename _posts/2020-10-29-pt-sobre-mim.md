@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Quem é Jeiso Silva ?"
+title: "Quem é Jason Silva ?"
 date: 2021-02-11
 lang: pt
 ref: sobre mim
-author: jeiso
+author: Jason
 description: Um resumo sobre o criador deste Blog.
 image: ../../../images/sou-eu/mr_bean2.gif
 ---
@@ -17,7 +17,7 @@ image: ../../../images/sou-eu/mr_bean2.gif
 ### <span style="color:#36648B">Olá!</span>
 <p>Como está ? Estou muito feliz por encontrar você por aqui, 
 provavelmente você deve ter acessador este post por que queira saber um pouco mais sobre esse que vos fala. Pois então vamos lá.</p>
-<p>Meu nome é Jeiso Pedreira da Silva, nasci em São Paulo e morei aqui a minha vida toda. Iniciei minha jornada na área de Tecnologia da Informação em 2016 com o curso de Ciência da Computação, após decidir deixar o emprego que estava há 4 anos e me aventurar por mares desconhecidos.</p>
+<p>Meu nome é Jason Pedreira da Silva, nasci em São Paulo e morei aqui a minha vida toda. Iniciei minha jornada na área de Tecnologia da Informação em 2016 com o curso de Ciência da Computação, após decidir deixar o emprego que estava há 4 anos e me aventurar por mares desconhecidos.</p>
 
 <p>Em meados de 2017 quando já estava no meu programa de estágio, em uma conversa sobre novas tendências de mercado com meu gestor, ele me apresentou a um curso chamado Análise de Dados com Python, no qual havia uma introdução a Data Science com Python: foi paixão à primeira vista.</p> 
 
